@@ -21,4 +21,9 @@ $app->group('/api', function () use ($app) {
    
     //REGISTROUSUARIOS
     $app->post('/rutacalculadora','funcionCalculadora');
+
+    $app->post('/sensores','funcionsensores');
+    $app->get('/sensores','funciongetSensoreData');
+    
+
 });
